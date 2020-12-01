@@ -1,0 +1,72 @@
+.default {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+
+  .head {
+    height: 80px;
+    background-color: #854b1d;
+    display: flex;
+
+    .logoBox {
+      display: flex;
+      align-items: center;
+      padding: 0 10px;
+    }
+
+    .topMenu {
+      flex: 1;
+      display: flex;
+      flex-direction: row-reverse;
+
+      .userAvator {
+        display: flex;
+        align-items: center;
+        padding: 0 20px;
+
+        .item {
+          .Avatar {
+            width: 50px;
+            height: 50px;
+            background-color: #c0c4cc;
+            border-radius: 50%;
+            overflow: hidden;
+            box-sizing: border-box;
+            display: inline-block;
+
+            &>img {
+              width: 50px;
+              height: 50px;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .defaultBody {
+    flex: 1;
+    display: flex;
+
+    .nav {
+      width: 280px;
+    }
+
+    .defaultView {
+      flex: 1;
+      padding: 10px;
+      background-color: rgb(247, 244, 235);
+      display: flex;
+    }
+  }
+
+  .menu {
+    height: 100%;
+    border-radius: 0;
+  }
+
+  .iconBox {
+    display: flex;
+    align-items: center;
+  }
+}
